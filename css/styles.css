@@ -157,8 +157,11 @@ ul{
     background-color: var(--footer-color);
     
 }
-.footer .logo.link {
+.footer .link{ 
     color: rgba(255, 255, 255, 0.6);
+}
+.footer .logo.link {
+    color: var(--accent-color);
     font-family: 'Raleway' sans-serif;
     font-weight: 700;
     font-size: 26px;
