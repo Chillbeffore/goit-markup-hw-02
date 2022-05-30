@@ -18,7 +18,7 @@ ul{
     list-style: none;
 }
 .body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
         /* header  */
@@ -94,6 +94,7 @@ ul{
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0  ;
 }
 .first-section .section-button:hover,
 .first-section .section-button:focus {
@@ -125,6 +126,10 @@ ul{
     line-height: 42px;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+}
+.photo-card {
+    background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .fourth-section{ 
     background-color: var(--grey-color);
@@ -184,7 +189,7 @@ ul{
         /* Portfolio */
 
 .button-one{
-    font-family: inherit
+    font-family: inherit;
     background-color: var(--white-color);
     color: var(--secondary-text-color);
     cursor: pointer;
@@ -194,6 +199,8 @@ ul{
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.03em;
+    border: 0em;
+    border-radius: 4px;
 }
 .button-one.current{
     background-color: var(--accent-color);
@@ -216,6 +223,8 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    border: 0em;
+    border-radius: 4px;
 }
 .button-two:hover, 
 .button-two:focus {
@@ -234,6 +243,7 @@ ul{
     font-size: 16px;
     line-height: 26px;
     border-radius: 4px;
+    border: 0em;
 }
 .button-three:hover,
 .button-three:focus {
@@ -251,6 +261,8 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    border: 0em;
+    border-radius: 4px;
 }
 .button-four:hover,
 .button-four:focus {
@@ -265,7 +277,10 @@ ul{
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;}
+    line-height: 26px;
+    border: 0em;
+    border-radius: 4px;
+}
 .button-five:hover,
 .button-five:focus {
     background-color: var(--accent-color); 
@@ -280,6 +295,7 @@ ul{
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
+    
 }
 .card .card-text {
     color: var(--primary-text-color);
